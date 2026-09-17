@@ -1,0 +1,267 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Family Tree</title>
+   <style>body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f1e8;
+    color: #333;
+}
+
+/* Header */
+header {
+    text-align: center;
+    background-color: #5b3a29;
+    color: white;
+    padding: 30px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 35px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* Tree */
+.tree {
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+/* Generation */
+.generation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    position: relative;
+}
+
+.generation h2 {
+    position: absolute;
+    left: 0;
+    color: #5b3a29;
+    font-size: 18px;
+}
+
+/* Person card */
+.person {
+    width: 220px;
+    background-color: white;
+    border: 3px solid #8b5e3c;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 3px 8px #aaa;
+}
+
+.person h3 {
+    margin: 10px 0;
+    color: #5b3a29;
+    font-size: 17px;
+}
+
+.person p {
+    margin: 5px;
+    color: #666;
+}
+
+/* Person icon */
+.icon {
+    font-size: 45px;
+}
+
+/* Connecting line */
+.line {
+    height: 50px;
+    width: 3px;
+    background-color: #8b5e3c;
+    margin: auto;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #5b3a29;
+    color: white;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+/* Mobile screen */
+@media (max-width: 700px) {
+
+    .generation {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .generation h2 {
+        position: static;
+        margin-bottom: 5px;
+    }
+
+    .person {
+        width: 80%;
+    }
+}
+</style>
+</head>
+
+<body>
+
+    <header>
+        <h1>🌳 My Family Tree</h1>
+        <h2>JAVVAJI's</h2>
+        <p>Seven Generations of Our Family</p>
+
+    </header>
+
+    <div class="tree">
+
+        <!-- Generation 1 -->
+        <div class="generation">
+            <h2>Generation 1</h2>
+
+            <div class="person">
+                <div class="icon">👴</div>
+                <h3>Great Great Great Grandfather</h3>
+                <h2>Sri Krishnam Raju</h2>
+                <p>Family Founder</p>
+            </div>
+
+            <div class="person">
+                <div class="icon">👵</div>
+                <h3>Great Great Great Grandmother</h3>
+                <h2>Lakshmi devi</h2>
+                <p>Family Founder</p>
+            </div>
+        </div>
+
+        <div class="line"></div>
+
+        <!-- Generation 2 -->
+        <div class="generation">
+            <h2>Generation 2</h2>
+
+            <div class="person">
+                <div class="icon">👴</div>
+                <h3>Great Great Grandfather</h3>
+                <h2>Subbaraju</h2>
+                <p>Family Member</p>
+            </div>
+
+            <div class="person">
+                <div class="icon">👵</div>
+                <h3>Great Great Grandmother</h3>
+                <h2>Chamendeshawari</h2>
+                <p>Family Member</p>
+            </div>
+        </div>
+
+        <div class="line"></div>
+
+        <!-- Generation 3 -->
+        <div class="generation">
+            <h2>Generation 3</h2>
+
+            <div class="person">
+                <div class="icon">👴</div>
+                <h3>Great Grandfather</h3>
+                <h2>venkata narasimharao</h2>
+                <p>Family Member</p>
+            </div>
+
+            <div class="person">
+                <div class="icon">👵</div>
+                <h3>raja lakshmi</h3>
+                <p>Family Member</p>
+            </div>
+        </div>
+
+        <div class="line"></div>
+
+        <!-- Generation 4 -->
+        <div class="generation">
+            <h2>Generation 4</h2>
+
+            <div class="person">
+                <div class="icon">👴</div>
+                <h3>Grandfather</h3>
+                <h2>venkateswarao</h2>
+                <p>Family Member</p>
+            </div>
+
+            <div class="person">
+                <div class="icon">👵</div>
+                <h3>Grandmother</h3>
+                <h2>jayaamma</h2>
+                <p>Family Member</p>
+            </div>
+        </div>
+
+        <div class="line"></div>
+
+        <!-- Generation 5 -->
+        <div class="generation">
+            <h2>Generation 5</h2>
+
+            <div class="person">
+                <div class="icon">👨</div>
+                <h3>Father</h3>
+                <h2>narasimharao</h2>
+                <p>Parent</p>
+            </div>
+
+            <div class="person">
+                <div class="icon">👩</div>
+                <h3>Mother</h3>
+                <h2>rajeswari</h2>
+                <p>Parent</p>
+            </div>
+        </div>
+
+        <div class="line"></div>
+
+        <!-- Generation 6 -->
+        <div class="generation">
+            <h2>Generation 6</h2>
+
+            <div class="person">
+                <div class="icon">👦</div>
+                <h3>Son</h3>
+                <h2>vamsikrishna</h2>
+                <p>Child</p>
+            </div>
+        </div>
+
+        <div class="line"></div>
+
+        <!-- Generation 7 -->
+        <div class="generation">
+            <h2>Generation 7</h2>
+
+            <div class="person">
+                <div class="icon">👶</div>
+                <h3>Youngest Generation</h3>
+                <p>Future of the Family</p>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>❤️ Our Family • Seven Generations • Our Legacy ❤️</p>
+    </footer>
+
+</body>
+</html>
+```
